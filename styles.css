@@ -1,0 +1,42 @@
+body {
+  background-color: bisque;
+  display: flex;
+}
+
+h1 {
+  font-family: Sigmar;
+  font-size: 42px;
+}
+
+section {
+  border: 2px solid salmon;
+  width: 60%;
+  height: 100vh;
+}
+.leftSec {
+  background-size: cover;
+  background-position: center;
+  background-image: url('unsplash-pic.jpg');
+  width: 40%;
+}
+
+.logoDiv {
+  width: 100%;
+  height: 20%;
+  border: 2px solid black;
+  display: flex;
+  margin-top: 35%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+img {
+  padding-left: 20%;
+
+  width: 125px;
+  height: 125px;
+}
+
+.imgDiv {
+  width: 50%;
+  height: 100%;
+}
