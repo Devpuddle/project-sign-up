@@ -37,35 +37,56 @@
         </p>
         <p>You know you want to.</p>
         <div class="formContainer">
-          <form action="">
+          <form id="form">
             <fieldset>
               <legend>Let's do this!</legend>
               <div class="fieldDiv">
                 <div class="fieldRight">
                   <label for="fname">First Name</label>
-                  <input type="text" id="fname" placeholder="Devpuddle" />
+                  <input
+                    type="text"
+                    id="fname"
+                    placeholder="Devpuddle"
+                    required
+                  />
                   <label for="email">Email</label>
                   <input
                     type="email"
                     id="email"
                     placeholder="Devpuddles@gmail.com"
+                    required
                   />
                   <label for="password">Password</label>
-                  <input type="password" id="password" placeholder="****" />
+                  <input
+                    type="password"
+                    id="password"
+                    placeholder="****"
+                    required
+                  />
                 </div>
                 <div class="fieldRight">
                   <label for="lname">Last Name</label>
-                  <input type="text" id="lname" placeholder="Go" />
+                  <input type="text" id="lname" placeholder="Go" required />
                   <label for="phone">Phone Number</label>
-                  <input type="tel" id="phone" placeholder="123-456-7890" />
+                  <input
+                    type="tel"
+                    id="phone"
+                    placeholder="123-456-7890"
+                    required
+                  />
                   <label for="password2">Confirm Password</label>
-                  <input type="password" id="password2" placeholder="****" />
+                  <input
+                    type="password"
+                    id="password2"
+                    placeholder="****"
+                    required
+                  />
                 </div>
               </div>
             </fieldset>
           </form>
         </div>
-        <button type="submit">Create Account</button>
+        <button type="submit" form="form">Create Account</button>
         <p class="bottom-p">Already have an account?</p>
         <a href="#"><span>Log In!</span></a>
       </div>
